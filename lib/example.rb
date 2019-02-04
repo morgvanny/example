@@ -1,6 +1,3 @@
-require "example/version"
+require_relative "../config/environment"
 
-module Example
-  class Error < StandardError; end
-  # Your code goes here...
-end
+CLI.new.start
